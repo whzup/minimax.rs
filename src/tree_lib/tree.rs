@@ -67,7 +67,7 @@ mod tests {
         let tree = BTree::new(12, true);
 
         assert_eq!(tree, BTree {
-            root: Some(Node::new(12, true)),
+            root: Some(Node::new(12, true, None, None)),
             depth: 1
         })
     }
